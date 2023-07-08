@@ -15,7 +15,6 @@ import Base: convert, iterate, length, eltype, show
 
 include("./types/ellipsoid.jl")
 include("./types/orbit.jl")
-include("./types/eop.jl")
 
 ############################################################################################
 #                                        Constants
@@ -44,7 +43,6 @@ include("./show/orbit.jl")
 
 include("./time/gmst.jl")
 include("./time/julian_day.jl")
-include("./time/scales.jl")
 
 include("precompile.jl")
 
